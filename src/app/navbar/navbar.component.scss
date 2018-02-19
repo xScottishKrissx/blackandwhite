@@ -1,0 +1,47 @@
+
+.navbar{
+  background-color: black;
+
+
+  .navbar-brand{display: none;}
+}
+
+@media only screen and (min-width:768px){
+
+  .navbar{
+    background-color: #fff;
+    border: 1px solid black;
+    line-height: 4rem;
+
+    #mainNav{
+      font-size: 1.5rem;
+
+      ul{
+        margin: 0 auto;
+
+        li{
+          padding-left: 3rem;
+          padding-right: 3rem;
+
+          a{
+          //Important Used to Override bootstrap
+            color:#00000075 !important;
+            border-bottom: 1px solid #00000075;
+
+            &:hover{
+              color:#000 !important;
+              border-bottom: 1px solid black;
+            }
+          }
+        }
+
+        .navbar-brand{
+          color:#000 !important;
+          display: block;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+
+}

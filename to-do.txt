@@ -1,8 +1,27 @@
-ChangeLog / Planned Features / Known Issues / To-Do_list
+Changelog / Planned Features / Known Issues / To-Do list
+
+Main Goals
+  *Replicate Mockups
+
+Using
+  *Angular
+  *Bootstrap
+  *SCSS
+
+Stages
+  * Navbar -  Proof of Concept
+  * Slider -  Proof of Concept
+  * Main content -  Proof of Concept
+  * Footer -  Proof of Concept
+
 
 
 Black and White To Do
   *Create Angular Project  -- Complete
-  *Create Github Repo      --
-  *Install Bootstrap       --
-  *Install SCSS            --
+  *Create Github Repo      -- Complete
+  *Install Bootstrap       -- Complete
+  *Install SCSS            -- Complete
+
+19/02/2018 - Day 1
+*Created Angular Project and installed bootstrap and scss
+*Completed Basic Transfer of Mockups to Proof of Concept

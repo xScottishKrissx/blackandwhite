@@ -1,0 +1,28 @@
+.sliderWrapper{
+  background-color: black;
+  height: 25rem;
+  position: relative;
+  margin-top: 3.53rem;
+
+    .carousel{
+      height: 100%;
+    }
+
+    .carousel-inner{height: 100%;}
+      .carousel-item {
+        //background-image: url("/assets/img/carousel_placeholder.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      
+}
+
+@media only screen and (min-width:768px){
+  .sliderWrapper{margin-top: 6.2rem;}
+}

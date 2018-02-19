@@ -1,0 +1,42 @@
+.mainContentWrapper {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1320px; }
+  .mainContentWrapper .contentBox {
+    border: 1px solid black;
+    flex-wrap: wrap;
+    height: 20rem;
+    position: relative;
+    width: 100%; }
+    .mainContentWrapper .contentBox p {
+      bottom: 0;
+      background-color: #000;
+      height: 4rem;
+      margin: auto;
+      position: absolute;
+      width: 100%; }
+  .mainContentWrapper .textBox {
+    border: 1px solid Black;
+    margin: 0 auto;
+    padding-left: 4.2rem;
+    padding-right: 3rem;
+    position: relative;
+    width: 100%; }
+
+@media only screen and (min-width: 768px) {
+  .mainContentWrapper {
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+    .mainContentWrapper .contentBox {
+      height: 20rem;
+      margin: 0 auto;
+      text-align: center;
+      width: 20rem; }
+      .mainContentWrapper .contentBox p {
+        color: #fff; }
+    .mainContentWrapper .textBox {
+      margin-top: 5rem;
+      width: 90%; } }
+
+/*# sourceMappingURL=maincontent.component.css.map */

@@ -1,0 +1,50 @@
+
+.footerWrapper{
+  background-color: black;
+  max-width: inherit;
+  width: 100%;
+
+.nav{
+  background-color: red;
+
+
+  .footerNav{
+    background-color: green;
+  }
+}
+
+.companyInfo{
+  margin: 0 auto;
+  .footerImage{
+    border-radius: 4rem;
+    background-color: white;
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+  }
+  .informationText{
+    margin: 0 auto;
+  }
+}
+
+}
+@media only screen and (min-width:768px){
+  .footerWrapper{display: flex;}
+    nav{
+      color:white;
+      width: 50%;
+
+
+      }      .nav-item{
+        a{color:white;}
+              div{
+                a{color:white;}
+              }
+            }
+
+    .companyInfo{
+      width: 50%;
+      color:white;
+      padding-top: 3rem;
+    }
+}

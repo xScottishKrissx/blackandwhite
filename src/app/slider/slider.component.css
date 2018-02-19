@@ -1,0 +1,22 @@
+.sliderWrapper {
+  background-color: black;
+  height: 25rem;
+  position: relative;
+  margin-top: 3.53rem; }
+  .sliderWrapper .carousel {
+    height: 100%; }
+  .sliderWrapper .carousel-inner {
+    height: 100%; }
+  .sliderWrapper .carousel-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+    .sliderWrapper .carousel-item img {
+      width: 100%;
+      height: 100%; }
+
+@media only screen and (min-width: 768px) {
+  .sliderWrapper {
+    margin-top: 6.2rem; } }
+
+/*# sourceMappingURL=slider.component.css.map */
