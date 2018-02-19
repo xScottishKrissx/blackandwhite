@@ -1,0 +1,8 @@
+ChangeLog / Planned Features / Known Issues / To-Do_list
+
+
+Black and White To Do
+  *Create Angular Project  -- Complete
+  *Create Github Repo      --
+  *Install Bootstrap       --
+  *Install SCSS            --
