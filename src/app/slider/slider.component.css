@@ -1,15 +1,22 @@
 .sliderWrapper {
   background-color: black;
-  height: 25rem;
+  height: 60vh;
   position: relative;
   margin-top: 3.53rem; }
   .sliderWrapper .carousel {
     height: 100%; }
   .sliderWrapper .carousel-inner {
     height: 100%; }
+  .sliderWrapper .first-slide {
+    background-image: url("/assets/img/main_content/city.jpeg"); }
+  .sliderWrapper .second-slide {
+    background-image: url("/assets/img/main_content/road.jpg"); }
+  .sliderWrapper .third-slide {
+    background-image: url("/assets/img/main_content/bulb.jpg"); }
   .sliderWrapper .carousel-item {
-    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100%; }
     .sliderWrapper .carousel-item img {
       width: 100%;

@@ -14,7 +14,10 @@
     line-height: 4rem;
 
     #mainNav{
+      //border: 1px solid black;
       font-size: 1.5rem;
+      max-width: 1320px;
+      margin: 0 auto;
 
       ul{
         margin: 0 auto;

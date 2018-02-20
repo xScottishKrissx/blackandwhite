@@ -3,24 +3,38 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1320px; }
+  .mainContentWrapper .first {
+    background-image: url("/assets/img/main_content/rail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .mainContentWrapper .second {
+    background-image: url("/assets/img/main_content/code.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .mainContentWrapper .third {
+    background-image: url("/assets/img/main_content/moon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
   .mainContentWrapper .contentBox {
-    border: 1px solid black;
     flex-wrap: wrap;
     height: 20rem;
     position: relative;
     width: 100%; }
     .mainContentWrapper .contentBox p {
       bottom: 0;
-      background-color: #000;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.67), black);
+      color: #fff;
       height: 4rem;
       margin: auto;
+      padding: 1rem;
       position: absolute;
       width: 100%; }
   .mainContentWrapper .textBox {
-    border: 1px solid Black;
     margin: 0 auto;
-    padding-left: 4.2rem;
-    padding-right: 3rem;
+    padding: 1rem;
     position: relative;
     width: 100%; }
 
@@ -29,7 +43,7 @@
     padding-top: 5rem;
     padding-bottom: 5rem; }
     .mainContentWrapper .contentBox {
-      height: 20rem;
+      height: 40rem;
       margin: 0 auto;
       text-align: center;
       width: 20rem; }

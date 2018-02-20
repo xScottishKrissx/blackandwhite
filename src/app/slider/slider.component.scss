@@ -1,6 +1,6 @@
 .sliderWrapper{
   background-color: black;
-  height: 25rem;
+  height: 60vh;
   position: relative;
   margin-top: 3.53rem;
 
@@ -9,10 +9,14 @@
     }
 
     .carousel-inner{height: 100%;}
+      .first-slide{background-image: url("/assets/img/main_content/city.jpeg");}
+      .second-slide{background-image: url("/assets/img/main_content/road.jpg");}
+      .third-slide{background-image: url("/assets/img/main_content/bulb.jpg");}
+
       .carousel-item {
-        //background-image: url("/assets/img/carousel_placeholder.png");
-        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
+        background-size: cover;
         height: 100%;
 
         img{
@@ -20,7 +24,7 @@
           height: 100%;
         }
       }
-      
+
 }
 
 @media only screen and (min-width:768px){

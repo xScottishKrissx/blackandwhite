@@ -2,37 +2,59 @@
   background-color: black;
   max-width: inherit;
   width: 100%; }
-  .footerWrapper .nav {
-    background-color: red; }
-    .footerWrapper .nav .footerNav {
-      background-color: green; }
-  .footerWrapper .companyInfo {
-    margin: 0 auto; }
-    .footerWrapper .companyInfo .footerImage {
-      border-radius: 4rem;
-      background-color: white;
-      height: 100px;
-      margin: 0 auto;
-      width: 100px; }
-    .footerWrapper .companyInfo .informationText {
-      margin: 0 auto; }
+  .footerWrapper .footer-container {
+    padding: 0; }
+    .footerWrapper .footer-container .nav-footer .footerNav button span {
+      color: #fff; }
+    .footerWrapper .footer-container .nav-footer .footerNav ul li a {
+      color: white; }
+      .footerWrapper .footer-container .nav-footer .footerNav ul li a:hover {
+        background-color: purple; }
+    .footerWrapper .footer-container .companyInfo {
+      padding-top: 2rem; }
+      .footerWrapper .footer-container .companyInfo .footerImage {
+        border-radius: 4rem;
+        background-color: white;
+        height: 100px;
+        margin: 0 auto;
+        width: 100px; }
+      .footerWrapper .footer-container .companyInfo .informationText {
+        color: #fff;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        text-align: center;
+        width: 100%; }
 
 @media only screen and (min-width: 768px) {
   .footerWrapper {
     display: flex; }
 
-  nav {
-    color: white;
-    width: 50%; }
+  .footer-container {
+    background-color: black;
+    max-width: 1320px;
+    padding-left: 0;
+    padding-right: 0; }
 
-  .nav-item a {
-    color: white; }
-  .nav-item div a {
-    color: white; }
+  .nav-footer {
+    float: left;
+    width: 50%;
+    margin: 0; }
+    .nav-footer nav {
+      color: white; }
+    .nav-footer .nav-item a {
+      color: white; }
+    .nav-footer .nav-item div a {
+      color: white; }
 
   .companyInfo {
-    width: 50%;
     color: white;
-    padding-top: 3rem; } }
+    height: 100%;
+    padding-top: 3rem;
+    width: 50%; }
+    .companyInfo .footerImage {
+      margin: 0 auto; }
+    .companyInfo .informationText {
+      margin: 0 auto;
+      text-align: center; } }
 
 /*# sourceMappingURL=footer.component.css.map */

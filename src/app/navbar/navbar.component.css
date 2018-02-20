@@ -9,7 +9,9 @@
     border: 1px solid black;
     line-height: 4rem; }
     .navbar #mainNav {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      max-width: 1320px;
+      margin: 0 auto; }
       .navbar #mainNav ul {
         margin: 0 auto; }
         .navbar #mainNav ul li {
