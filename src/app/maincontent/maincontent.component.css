@@ -21,6 +21,7 @@
   .mainContentWrapper .contentBox {
     flex-wrap: wrap;
     height: 20rem;
+    margin-top: 1rem;
     position: relative;
     width: 100%; }
     .mainContentWrapper .contentBox p {
@@ -34,11 +35,13 @@
       width: 100%; }
   .mainContentWrapper .textBox {
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem 5rem 2rem 5rem;
     position: relative;
     width: 100%; }
+    .mainContentWrapper .textBox p {
+      padding-left: 1rem; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .mainContentWrapper {
     padding-top: 5rem;
     padding-bottom: 5rem; }
@@ -51,6 +54,7 @@
         color: #fff; }
     .mainContentWrapper .textBox {
       margin-top: 5rem;
-      width: 90%; } }
+      width: 90%;
+      padding: 0rem 0rem 0rem 0rem; } }
 
 /*# sourceMappingURL=maincontent.component.css.map */

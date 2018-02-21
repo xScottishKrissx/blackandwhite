@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files  */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto:50');
+h1,a{font-family: Raleway, sans-serif;}
+p{font-family: Roboto, sans-serif;}

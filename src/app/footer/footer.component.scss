@@ -10,14 +10,20 @@
 
     .nav-footer{
       .footerNav{
-        button{
-          span{color:#fff;}
+      button{
+        outline: 0px solid black;
+        color:#fff;
+        span{
+          color:#808080;
         }
+        a{color:#fff;}
+      }
+
         ul{
           li{
             a{
               color: white;
-              &:hover{background-color: purple;}
+              &:hover{background-color: white; color:black;}
             }
           }
         }
@@ -48,6 +54,10 @@
   }
 
 }
+
+
+
+
 @media only screen and (min-width:768px){
   .footerWrapper{display: flex;}
   .footer-container{

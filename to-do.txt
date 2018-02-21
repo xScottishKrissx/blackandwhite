@@ -2,6 +2,8 @@ Changelog / Planned Features / Known Issues / To-Do list
 
 Main Goals
   *Replicate Mockups
+  *Create responsive 1 page website
+
 
 Using
   *Angular
@@ -14,13 +16,17 @@ Stages
   * Main content -  Proof of Concept
   * Footer -  Proof of Concept
 
-
-
 Black and White To Do
   *Create Angular Project  -- Complete
   *Create Github Repo      -- Complete
   *Install Bootstrap       -- Complete
   *Install SCSS            -- Complete
+
+21/02/2018 - Day 3
+  *Optimised Image sizes
+  *Overhauled website typography
+  *Improved Footer Design
+  *Improved main content area
 
 20/02/2018 - Day 2
   *Completed Proof of Concept

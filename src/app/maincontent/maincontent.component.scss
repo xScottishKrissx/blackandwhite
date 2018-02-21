@@ -27,6 +27,7 @@
       //border: 1px solid black;
       flex-wrap: wrap;
       height: 20rem;
+      margin-top: 1rem;
       position: relative;
       width: 100%;
 
@@ -46,14 +47,15 @@
   .textBox{
     //border:1px solid Black;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem 5rem 2rem 5rem;
     position: relative;
     width: 100%;
+    p{padding-left: 1rem;}
   }
 
 }
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:992px){
 
   .mainContentWrapper{
     padding-top: 5rem;
@@ -74,6 +76,7 @@
     .textBox{
       margin-top: 5rem;
       width: 90%;
+      padding: 0rem 0rem 0rem 0rem;
     }
 
   }

@@ -4,12 +4,18 @@
   width: 100%; }
   .footerWrapper .footer-container {
     padding: 0; }
-    .footerWrapper .footer-container .nav-footer .footerNav button span {
+    .footerWrapper .footer-container .nav-footer .footerNav button {
+      outline: 0px solid black;
       color: #fff; }
+      .footerWrapper .footer-container .nav-footer .footerNav button span {
+        color: #808080; }
+      .footerWrapper .footer-container .nav-footer .footerNav button a {
+        color: #fff; }
     .footerWrapper .footer-container .nav-footer .footerNav ul li a {
       color: white; }
       .footerWrapper .footer-container .nav-footer .footerNav ul li a:hover {
-        background-color: purple; }
+        background-color: white;
+        color: black; }
     .footerWrapper .footer-container .companyInfo {
       padding-top: 2rem; }
       .footerWrapper .footer-container .companyInfo .footerImage {
