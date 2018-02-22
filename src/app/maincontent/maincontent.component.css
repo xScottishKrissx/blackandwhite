@@ -41,6 +41,9 @@
     .mainContentWrapper .textBox p {
       padding-left: 1rem; }
 
+app-gallery {
+  width: 100%; }
+
 @media only screen and (min-width: 992px) {
   .mainContentWrapper {
     padding-top: 5rem;

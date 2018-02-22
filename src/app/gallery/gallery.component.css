@@ -1,0 +1,64 @@
+.galleryWrapper div {
+  background-color: red;
+  border: 1px solid white;
+  height: 20vh;
+  overflow: hidden;
+  padding: 0;
+  position: relative; }
+  .galleryWrapper div span {
+    background-color: #000000ba;
+    bottom: 0;
+    color: #fff;
+    height: 6rem;
+    position: absolute;
+    width: 100%; }
+    .galleryWrapper div span p {
+      margin: 0 auto;
+      padding: 0rem 1rem 0rem 1rem;
+      position: absolute; }
+  .galleryWrapper div .galleryItem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .galleryWrapper div .one {
+    background-image: url("/assets/img/gallery/red_moon.jpg"); }
+  .galleryWrapper div .two {
+    background-image: url("/assets/img/gallery/chess.jpg"); }
+  .galleryWrapper div .three {
+    background-image: url("/assets/img/gallery/candle.jpg"); }
+  .galleryWrapper div .four {
+    background-image: url("/assets/img/gallery/dog.jpg"); }
+  .galleryWrapper div .five {
+    background-image: url("/assets/img/gallery/desk.jpg"); }
+  .galleryWrapper div .six {
+    background-image: url("/assets/img/gallery/liquid.jpg"); }
+
+@media only screen and (min-width: 768px) {
+  .galleryWrapper div span {
+    height: 100%;
+    padding: 1rem;
+    top: 17rem;
+    transition: top 0.25s; }
+    .galleryWrapper div span p {
+      bottom: 3rem;
+      padding: 1rem; }
+
+  .one:hover .galleryCaption {
+    top: 0rem; }
+
+  .two:hover .galleryCaption {
+    top: 0rem; }
+
+  .three:hover .galleryCaption {
+    top: 0rem; }
+
+  .four:hover .galleryCaption {
+    top: 0rem; }
+
+  .five:hover .galleryCaption {
+    top: 0rem; }
+
+  .six:hover .galleryCaption {
+    top: 0rem; } }
+
+/*# sourceMappingURL=gallery.component.css.map */
